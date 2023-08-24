@@ -13,8 +13,8 @@ RUN npm install
 # Copy the rest of your app
 COPY . .
 
-# Expose port 3000
-EXPOSE 3000
+# Expose port 8080
+EXPOSE 8080
 
 # Command to run the app
 CMD ["npm", "start"]
